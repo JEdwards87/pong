@@ -8,15 +8,15 @@ export default function Ball() {
     const handle = setTimeout(() => {
       let dx = delta.x;
       let dy = delta.y;
-      if (pos.x + delta.x > 800 - 20 || pos.x + delta.x < 0) {
+      if (pos.x + delta.x > 780 - 20 || pos.x + delta.x < 0) {
         dx = -dx;
       }
-      if (pos.y + delta.y > 600 - 20 || pos.y + delta.y < 0) {
+      if (pos.y + delta.y > 360 - 20 || pos.y + delta.y < 0) {
         dy = -dy;
       }
       setDelta({ x: dx, y: dy });
       setPos({ x: pos.x + delta.x, y: pos.y + delta.y });
-    }, 50);
+    }, 40);
     return () => clearTimeout(handle);
   }, [pos, delta]);
 

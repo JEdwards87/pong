@@ -1,0 +1,9 @@
+.horizontal-lines {
+    position: absolute;
+    z-index: 10;
+    top: 175px;
+    border-top: 10px solid white;
+    width: 400px;
+    left: 190px;
+}
+
