@@ -3,12 +3,12 @@
     z-index: 10;
     top: 0;
     bottom: 0;
-    left: 190px;
+    left: calc(((180/780)*100%) + 10px);
     border-left: 10px solid white;
     height: 360px;
 }
 .vertical-lines.L2 {
-    right: 190px;
+    right: calc(((180/780)*100%) + 10px);
     border-right: 10px solid white;
     height: 360px;
 }

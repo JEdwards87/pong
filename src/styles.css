@@ -8,14 +8,4 @@
   position: relative;
   box-shadow: inset 0px 0px 3px black;
 }
-.vertical-lines {
-  content:"";
-  position: absolute;
-  z-index: 10;
-  top: 0;
-  bottom: 0;
-  left: 190px;
-  border-left: 10px solid white;
-  height: 360px;
-}
 
